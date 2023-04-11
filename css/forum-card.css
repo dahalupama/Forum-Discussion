@@ -1,0 +1,113 @@
+ 
+.forum-class > ul li{
+    list-style: none;
+   
+    /* align-items: left; */
+}
+.showForum{
+    /* max-width: 100rem!important; */
+    max-height: 1020px!important;
+    overflow-y: auto!important;
+    overflow-x: hidden!important;
+    font-size: medium!important;
+    line-height: 2;
+opacity: unset!important;
+
+
+   
+}
+.ftopics{
+    height: 60px;
+    margin: 30px;
+    border-bottom: 1px solid;
+    /* color: aliceblue; */
+    border-color: #e5e5e599;
+}
+
+
+
+
+
+
+
+
+.showForum::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+    height: 7px;               /* width of the entire scrollbar */
+  }
+  .showForum::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  .showForum::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
+.joinButton{
+    position:relative;
+    margin-left:2rem;
+    color: #3e929b !important;
+    font-size: 20px;
+    /* padding-left: 2rem; */
+}
+.names{
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    color: #979797 !important;
+}
+.list-names{
+    color: #979797 !important;
+
+
+}
+
+.forumCard{
+    padding:1.5rem!important;
+    
+    
+}
+.card-title{
+    color: #979797;
+    font-size: 35px;
+}
+
+
+
+h5{
+    margin-bottom: none !important;
+    
+}
+.forum-class{    
+    background: rgb(255, 255, 255);
+    /* position: relative;
+    left: 12px; */
+    height: auto;
+    width: 349px;
+    border-radius: 0.5rem !important;
+    
+    margin-top: -13px !important;
+    margin-right: 10px !important ;
+    position: relative;
+    left: 10px;
+   
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /* box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.119); */
+    opacity: 0.95;
+   
+}
+.description{
+    font-size: xx-small!important;
+    text-align: left;
+    border-bottom: 2px solid;
+    border-color: #cfcfcfd9;
+    padding-bottom: 10px;
+    font-size: 11px !important;
+}
+
+
+
+.stitle{
+    color: #979797;
+}
+.card-body{}
